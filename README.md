@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aniruddha Payas — Engineering Portfolio
 
-## Getting Started
+![System Status](https://img.shields.io/badge/System-Online-10B981?style=flat-square)
+![Tech Stack](https://img.shields.io/badge/Stack-Next.js_|_Tailwind_|_Framer-black?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-First, run the development server:
+A high-performance, single-page application (SPA) portfolio built to showcase complex full-stack web architectures and agentic AI pipelines. Designed with a continuous Bento Grid layout, hardware-accelerated animations, and a machine-readable semantic core.
 
-```bash
+## ⚡ Core Features
+
+- **Asymmetric Bento Dashboard:** A responsive, grid-based layout that breaks the traditional linear scroll, delivering a dense, data-rich overview of engineering capabilities.
+- **Antigravity Agent Terminal:** A live, interactive mock-RAG console simulating asynchronous queueing, vector database querying (pgvector), and token-by-token LLM inference streaming.
+- **Atmospheric 3D Engine:** A highly optimized, breathing dot-matrix background built on `@react-three/fiber`, heavily throttled to protect mobile GPUs via baked shadows and disabled high-density pixel ratios.
+- **Machine Experience (MX) Optimized:** Engineered with strict HTML5 semantics and injected JSON-LD schema objects to ensure flawless parsing by corporate ATS pipelines and LLM web-scrapers.
+- **Dynamic Routing:** Hardwired external links to production Vercel deployments, open-source repositories, and static PDF resume delivery.
+
+## 🛠 Tech Stack
+
+- **Framework:** [React](https://react.dev/) / [Next.js](https://nextjs.org/) (TypeScript)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animation:** [Framer Motion](https://www.framer.com/motion/)
+- **Graphics:** [Three.js](https://threejs.org/) (`@react-three/fiber`, `@react-three/drei`)
+- **Icons:** [Lucide React](https://lucide.dev/) & [Simple Icons](https://simpleicons.org/)
+
+## 🚀 Getting Started
+
+### Prerequisites
+Ensure you have Node.js (v18+) and your preferred package manager installed (`npm`, `yarn`, `pnpm`, or `bun`).
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone (https://github.com/ANIRUDDHA-12/MyPortFolio)
+
+
+### Install dependencies:
+
+npm install
+
+### Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ ### Configuration & Customization
+Theme Configuration: Global colors (near-black background, amber-gold accents) are controlled strictly via CSS custom variables in globals.css.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Data Mapping: Project data (Aegis AI, IssueTracker Pro, Skill-Bridge) is mapped dynamically via props in the ProjectCard components located in the <section id="work">.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Resume PDF: The "View Resume" functionality routes to /resume.pdf. Ensure your latest PDF is placed directly inside the public/ directory
 
-## Learn More
+### Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+├── public/                 # Static assets (resume.pdf, OG images)
+├── src/
+│   ├── app/                # Next.js App Router (page.tsx, layout.tsx)
+│   ├── components/         # Modular React components (BentoCard, Terminal, etc.)
+│   ├── styles/             # Global CSS and Tailwind directives
+│   └── lib/                # Utility functions and shared types
+├── tailwind.config.ts      # Tailwind engine configuration
+└── README.md
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### 📬 Contact & Availability
+Currently open for high-tier full-stack and AI engineering internships.
+Available for immediate technical assessments and architectural interviews.
 
-## Deploy on Vercel
+Email:payasaniruddhaxthc@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Designed and engineered by Aniruddha Payas.
